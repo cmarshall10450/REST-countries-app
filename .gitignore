@@ -1,1 +1,7 @@
 /node_modules
+<<<<<<< HEAD
+/.idea
+=======
+bundle.js
+bundle.js.map
+>>>>>>> c0e3655574c73af3675ed219f76d63f9df6a6044
