@@ -8,6 +8,11 @@ CountryInfo.prototype.render = function (country) {
 
   this.ul.appendChild(name)
   this.ul.appendChild(capital)
+
+  const select = document.querySelector('#countries-select')
+  const option = document.createElement('option')
+  option.innerText = `${country.name}`
+  select.appendChild(option)
 }
 
 CountryInfo.prototype.createListItem = function (label, content) {
